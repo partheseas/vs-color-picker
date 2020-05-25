@@ -1,0 +1,49 @@
+{
+	"name": "vs-color-picker",
+	"displayName": "Color Picker",
+	"version": "0.0.1",
+	"author": "McKayla Washburn",
+	"publisher": "mckay.la",
+	"engines": {
+		"vscode": "^1.39.0"
+	},
+	"main": "dist/mod.js",
+	"devDependencies": {
+		"@types/vscode": "^1.39.0",
+		"typescript": "^3.9.0"
+	},
+	"scripts": {
+		"build": "tsc -p .",
+		"dev": "tsc -w --preserveWatchOutput -p ."
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:vs-color-picker.pickColor"
+	],
+	"contributes": {
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "color-picker",
+					"title": "Color Picker",
+					"icon": "$(hubot)"
+				}
+			]
+		},
+		"commands": [
+			{
+				"command": "vs-color-picker.pickColor",
+				"title": "Pick Color"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "vs-color-picker.pickColor",
+				"key": "ctrl+shift+c",
+				"mac": "cmd+shift+c"
+			}
+		]
+	}
+}

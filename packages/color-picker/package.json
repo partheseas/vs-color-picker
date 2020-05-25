@@ -1,0 +1,22 @@
+{
+	"name": "@mckayla/color-picker",
+	"version": "0.0.1",
+	"author": "McKayla Washburn",
+	"description": "A nice React color picker",
+	"license": "MIT",
+	"main": "target/lib.js",
+	"types": "target/lib.d.ts",
+	"peerDependencies": {
+		"react": "^16.13.1",
+		"styled-components": "^5.1.0"
+	},
+	"devDependencies": {
+		"@types/react": "^16.9.35",
+		"@types/styled-components": "^5.1.0",
+		"typescript": "^3.9.3"
+	},
+	"scripts": {
+		"build": "tsc -p .",
+		"dev": "tsc -w --preserveWatchOutput -p ."
+	}
+}

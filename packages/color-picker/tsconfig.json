@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"declaration": true,
+		"module": "umd",
+		"moduleResolution": "node",
+		"jsx": "react",
+		"outDir": "target",
+		"sourceMap": true,
+		"target": "esnext"
+	},
+	"include": ["src"]
+}

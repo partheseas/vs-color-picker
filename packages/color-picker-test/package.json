@@ -1,0 +1,23 @@
+{
+	"name": "@mckayla/color-picker-test",
+	"version": "0.0.1",
+	"author": "McKayla Washburn",
+	"description": "A nice React color picker",
+	"license": "MIT",
+	"main": "dist/index.html",
+	"dependencies": {
+		"@mckayla/color-picker": "*",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"styled-components": "^5.1.0"
+	},
+	"devDependencies": {
+		"@types/react": "^16.9.35",
+		"@types/react-dom": "^16.9.8",
+		"parcel": "^2.0.0-nightly.275",
+		"sass": "^1.26.5"
+	},
+	"scripts": {
+		"dev": "parcel src/index.html"
+	}
+}
