@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Dependencies
+node_modules
+
+# Exclude build directory and cache
+.cache
+.parcel-cache
+dist
+public
+target
+
+# Vercel
+.now
+.vercel
